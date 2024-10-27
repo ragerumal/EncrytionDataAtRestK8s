@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Encryption at rest ensures that sensitive data stored in Kubernetes clusters is secure and protected from unauthorized access. By encrypting data before writing it to disk, you can safeguard against potential data breaches. This guide explains how to enable encryption at rest for Kubernetes clusters.
+Encryption at rest ensures that sensitive data stored in Kubernetes clusters is secure and protected from unauthorized access. By encrypting data before writing it to disk, you can safeguard against potential data breaches. In this hand-on , instead saving secrets e.g DB passwords in readable format in ETCD, we would be using the K8s encryption for this to encrypt sensitive data and store in ETCD. This guide explains how to enable encryption at rest for Kubernetes clusters.
 
 ## Before You Begin
 
